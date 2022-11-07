@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/login-registration-app/static/css/main.4edfcea6.css",
+    "main.js": "/login-registration-app/static/js/main.f81fb120.js",
+    "index.html": "/login-registration-app/index.html",
+    "main.4edfcea6.css.map": "/login-registration-app/static/css/main.4edfcea6.css.map",
+    "main.f81fb120.js.map": "/login-registration-app/static/js/main.f81fb120.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4edfcea6.css",
+    "static/js/main.f81fb120.js"
+  ]
+}
