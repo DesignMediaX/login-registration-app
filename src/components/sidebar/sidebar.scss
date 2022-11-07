@@ -1,0 +1,17 @@
+.sidebar {
+    flex: 2.5;
+    height: calc(100vh - 51px);
+    border-right: solid 1px lightgray;
+    
+    .sidebarWrapper {
+      padding: 20px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 940px) {
+    .sidebar {
+      flex: 1;
+    }
+  }
+  

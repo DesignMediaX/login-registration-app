@@ -1,0 +1,82 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    
+    .navbarWrapper {
+      height: 100%;
+      padding: 0px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .navbarLeft{
+      flex: 2.5;
+        display: flex;
+        align-items: center;
+  
+        .logo {
+          font-size: 24px;
+          font-weight: bold;
+          color: darkblue;
+          margin-right: 50px;
+        }
+        
+        .navbarLink {
+          margin-left: 20px;
+        }
+        
+  
+      }
+      .navbarCenter{
+       flex: 5;
+        .search {
+          width: 400px;
+          height: 24px;
+          border: 1px solid gray;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+        }
+        
+        .searchInput {
+          width: 80%;
+          border: none;
+          background-color: transparent;
+          margin-left: 20px;
+          outline: none;
+        }
+  
+      }
+      .navbarRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .profileImg {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        
+        .navbarName {
+          margin: 0px 10px;
+          font-weight: 500;
+          font-size: 16px;
+          text-transform: capitalize;
+        }
+      }
+     
+    }
+    
+    
+    
+  }
+  
+  @media only screen and (max-width: 940px) {
+    .navbarCenter {
+      display: none;
+    }
+  }
+  
